@@ -1,6 +1,7 @@
 # flask-cat-app
 ## Comandos exactos de build y run
 docker build -t flask-cat-app:laaurabas .
+
 docker run --rm -p 8888:5000 flask-cat-app:laaurabas
 
 ## App funcionando en http://localhost:8888
